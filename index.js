@@ -155,7 +155,9 @@ const unfundedGamesCount = GAMES_JSON.filter((game) => game.pledged < game.goal)
 const displayText = `A total of $${totalPledged.toLocaleString()} has been raised for ${GAMES_JSON.length} games. Currently, there are ${unfundedGamesCount} unfunded game${unfundedGamesCount !== 1 ? 's' : ''}.`;
 
 // create a new DOM element containing the template string and append it to the description container
-descriptionContainer.innerHTML += `<p>${displayText}</p>`;
+const p = document.createElement("p");
+p.textContent = displayText;
+descriptionContainer.appendChild(p);
 
 /************************************************************************************
  * Challenge 7: Select & display the top 2 games
