@@ -19,6 +19,35 @@ body {
     margin-top: -10px;
 }
 
+.search-container {
+    display: flex;
+    justify-content: flex-end; /* moves search to the right */
+    align-items: center;
+    margin: 1rem 2rem;
+}
+
+#search-input {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: 1px solid #888;
+    border-radius: 5px;
+}
+
+#search-btn {
+    padding: 0.5rem 1rem;
+    margin-left: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #0077cc;
+    color: white;
+    cursor: pointer;
+}
+
+#search-btn:hover {
+    background-color: #005fa3;
+}
+
 .stats-container {
     display: flex;
     align-items: center;

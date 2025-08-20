@@ -185,3 +185,35 @@ const secondGameElement = document.createElement("p");
 secondGameElement.textContent = secondGame.name;
 
 secondGameContainer.appendChild(secondGameElement);
+
+// add the search functionality
+const searchInput = document.getElementById("search-input");
+const searchBtn = document.getElementById("search-btn");
+
+function renderGames(games) {
+    gamesContainer.innerHTML = ""; // clear existing
+    games.forEach(game => {
+        const gameCard = document.createElement("div");
+        gameCard.classList.add("game-card");
+        gameCard.innerHTML = `
+            <img src= ${game.img} class="game-img">
+            <h2> ${game.name} </h2>
+            <p> ${game.description} </p>
+            <p> Pledged: $${game.pledged.toLocaleString()} </p>
+        `;
+        gamesContainer.appendChild(gameCard);
+    });
+}
+
+function searchGames() {
+    const query = searchInput.value.toLowerCase().trim();
+    const filteredGames = GAMES_JSON.filter(game =>
+        game.name.toLowerCase().includes(query)
+    );
+    renderGames(filteredGames);
+}
+
+searchBtn.addEventListener("click", searchGames);
+searchInput.addEventListener("keyup", e => {
+    if (e.key === "Enter") searchGames();
+});
