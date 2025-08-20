@@ -211,6 +211,10 @@ function searchGames() {
         game.name.toLowerCase().includes(query)
     );
     renderGames(filteredGames);
+
+    if (filteredGames.length > 0) {
+        gamesContainer.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
 }
 
 searchBtn.addEventListener("click", searchGames);
