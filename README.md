@@ -29,7 +29,9 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src="https://i.imgur.com/bahyMPk.gif" title="Video Walkthrough" alt="Video Walkthrough" />
+<a href="https://i.imgur.com/bahyMPk.gif" target="_blank">
+  <img src="https://i.imgur.com/bahyMPk.gif" title="Video Walkthrough" alt="Video Walkthrough" width="600" />
+</a>
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
