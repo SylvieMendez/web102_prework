@@ -29,8 +29,6 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src="https://i.imgur.com/c1YIkgw.gif" title="Video Walkthrough" alt="Video Walkthrough" width="600" />
-
 [![Video Walkthrough](https://i.imgur.com/c1YIkgw.gif)](https://imgur.com/gallery/sea-monster-crowdfunding-video-eGQDBpj#bahyMPk)
 
 <!-- Replace this with whatever GIF tool you used! -->
