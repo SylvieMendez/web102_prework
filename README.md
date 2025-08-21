@@ -29,12 +29,11 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<a href="https://i.imgur.com/bahyMPk.gif" target="_blank">
-  <img src="https://i.imgur.com/bahyMPk.gif" title="Video Walkthrough" alt="Video Walkthrough" width="600" />
-</a>
+<img src="https://i.imgur.com/bahyMPk.gif" title="Video Walkthrough" alt="Video Walkthrough" width="600" />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
+
 LiceCap (GIF)
 
 ## Notes
