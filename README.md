@@ -29,7 +29,10 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-[![Video Walkthrough](https://i.imgur.com/c1YIkgw.gif)](https://imgur.com/gallery/sea-monster-crowdfunding-video-eGQDBpj#bahyMPk)
+<img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdzR5bDluaWJiN3c2anJubjRtOWJlYmNtamwyZW1tczg0eG5zcHY5MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/UukHW81GDp3vl9s3qB/giphy.gif" alt="Video Walkthrough" width="600"
+/>
+
+![Video Walkthrough](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdzR5bDluaWJiN3c2anJubjRtOWJlYmNtamwyZW1tczg0eG5zcHY5MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/UukHW81GDp3vl9s3qB/giphy.gif)
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
